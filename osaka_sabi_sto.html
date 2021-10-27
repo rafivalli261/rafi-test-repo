@@ -17,16 +17,16 @@
 		<title>OSAKA | Kesekretariatan</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
 			<div class="container">
-				<a class="navbar-brand" href="#">OSAKA</a>
+				<a class="navbar-brand fs-5" href="#">OSAKA</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse ms-auto" id="navbarNav">
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#beranda">Beranda</a>
+							<a class="nav-link" aria-current="page" href="#hero">Beranda</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#ketentuan">Ketentuan</a>
@@ -47,24 +47,26 @@
 		<!-- akhir navbar -->
 
 		<!-- section hero -->
-		<div class="container col-xxl-8 px-4 py-5">
-			<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-				<div class="col-10 col-sm-10 col-lg-6">
-					<img src="img/2.png" class="mx-lg-auto img-fluid" width="700" height="500" alt="Bootstrap Themes" loading="lazy" />
-				</div>
-				<div class="col-lg-6">
-					<h1 class="display-5 fw-bold lh-1 mb-3">Obrolan Santai Kakak Alumni</h1>
-					<p class="lead">
-						Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components,
-						and powerful JavaScript plugins.
-					</p>
-					<div class="d-grid gap-2 d-md-flex justify-content-md-start">
-						<button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-						<button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+		<section id="hero">
+			<div class="container col-xxl-8 px-4 py-5">
+				<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+					<div class="col-10 col-sm-10 col-lg-6">
+						<img src="osaka.png" class="mx-lg-auto img-fluid" width="700" height="500" alt="Bootstrap Themes" loading="lazy" />
+					</div>
+					<div class="col-lg-6">
+						<h1 class="display-5 fw-bold lh-1 mb-3">Obrolan Santai Kakak Alumni</h1>
+						<p class="lead mt-3">
+							Kegiatan ini merupakan integrasi dari berbagai acara <span class="fw-bolder">sosialisasi perkuliahan</span> yang dilakukan secara soliter oleh tiap-tiap IAICG di regional tertentu dan menjadi program tahunan perdana
+							dari IAICG Se-Indonesia.
+						</p>
+						<!-- <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+							<button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+							<button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+						</div> -->
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- Akhir Hero -->
 
 		<!-- Ketentuan Pendaftaran -->
@@ -100,7 +102,7 @@
 				</div>
 				<div class="row justify-content-center">
 					<div class="col-md-8 text-center">
-						<button type="button" class="btn btn-outline-info btn-lg">Daftar Sekarang!</button>
+						<button type="button" class="btn btn-outline-dark btn-lg">Daftar Sekarang!</button>
 					</div>
 				</div>
 			</div>
@@ -166,18 +168,23 @@
 						<h2>Kontak</h2>
 					</div>
 				</div>
-				<div class="row text-success text-center">
-					<div class="col-md">
+				<div class="row text-primary text-opacity-75 text-center">
+					<div class="col-md mb-4">
 						<h3 class="bi bi-whatsapp"></h3>
+						<a href="#" target="_blank" class="btn btn-info mb-3">Intan</a>
+						<br />
+						<a href="#" target="_blank" class="btn btn-info">Bayu</a>
 					</div>
-					<div class="col-md">
+					<div class="col-md mb-4">
 						<h3 class="bi bi-instagram"></h3>
+						<a href="#" target="_blank" class="btn btn-info">@osaka.ac.id</a>
 					</div>
-					<div class="col-md">
+					<div class="col-md mb-4">
 						<h3 class="bi bi-envelope-fill"></h3>
+						<button class="btn btn-info">osaka@gmail.com</button>
 					</div>
 				</div>
-				<div class="row text-center">
+				<!-- <div class="row text-center">
 					<div class="col-md">
 						<a href="#" target="_blank" class="btn btn-info stretched-link mb-3">Intan</a>
 						<br />
@@ -189,7 +196,7 @@
 					<div class="col-md">
 						<a href="#" target="_blank" class="btn btn-info stretched-link">Osaka@rmail.com</a>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</section>
 		<!-- Akhir Kontak -->
