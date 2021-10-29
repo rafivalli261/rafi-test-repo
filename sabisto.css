@@ -2,14 +2,33 @@ section {
 	padding-top: 4rem;
 }
 
-#link-daftar {
-	background-color: #ddd;
+nav {
+	background-color: rgb(73, 147, 160);
 }
 
 #hero {
-	background-color: #ddd;
+	background-color: #fff;
+}
+
+#ketentuan {
+	background-color: rgb(195, 197, 202);
+}
+
+#link-daftar {
+	background-color: rgb(153, 217, 228);
+}
+
+#grup-wa {
+	background-color: rgb(195, 197, 202);
 }
 
 #kontak {
-	background-color: #ddd;
+	background-color: #fff;
 }
+
+footer {
+	background-color: #4993a0;
+}
+
+/* abu 149 150 152 */
+/* birumuda 140 212 224 */
