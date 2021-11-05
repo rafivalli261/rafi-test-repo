@@ -2,6 +2,10 @@ section {
 	padding-top: 6rem;
 }
 
+#syarat ul li {
+	padding-bottom: 0.8rem;
+}
+
 nav {
 	background-color: rgb(73, 147, 160);
 }
@@ -10,15 +14,19 @@ nav {
 	background-color: #fff;
 }
 
-#ketentuan {
+.justify {
+	text-align: justify;
+}
+
+#timeline {
 	background-color: rgb(195, 197, 202);
 }
 
-#link-daftar {
-	background-color: rgb(153, 217, 228);
+#syarat {
+	background-color: #99d9e4;
 }
 
-#grup-wa {
+#link-daftar {
 	background-color: rgb(195, 197, 202);
 }
 
