@@ -1,0 +1,22 @@
+navbar + off canvas
+jumbotron
+
+section recent upload
+
+advertisement
+
+recent image upload
+
+new release
+
+advertisement
+
+trending
+
+random
+
+advertisement
+
+description
+
+footer
