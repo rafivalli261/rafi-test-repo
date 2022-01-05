@@ -93,3 +93,44 @@
 
 // ~~~~~~~~~~~~~~~~~~~~~~~
 // Prototype
+
+/*
+ 
+contoh :
+function Mahasiswa(nama, energi){
+    let this = Object.create(Mahasiswa.prototype);
+    this.nama = nama;
+    this.energi = energi;
+    
+}
+
+*/
+
+class Siswa {
+	constructor(nama, mana) {
+		this.nama = nama;
+		this.mana = mana;
+	}
+	minumPotion(potion) {
+		this.mana += potion;
+		return `Halo ${this.nama}, Setelah minum potion mana mu sekarang adalah ${this.mana}`;
+	}
+	castElement(skill) {
+		switch (skill) {
+			case 1:
+				this.mana -= 20;
+				console.log(`${this.nama} mengeluarkan jurus Tapak Naga Hitam, mana sekarang ${this.mana}`);
+				break;
+			default:
+				console.log(`Kemampuan belum cukup silakan kembali ke Heavenly Demon cabang Murim`);
+				break;
+		}
+	}
+}
+
+Siswa.prototype.tidur = function (jam) {
+	this.mana += jam;
+	return `Master ${this.nama} sedang tidur, silakan kembali lagi lain waktu, mana sekarang ${this.mana}`;
+};
+
+let rafi = new Siswa("Rafi", 100);
