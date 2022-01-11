@@ -90,15 +90,59 @@ const iori = ["xiao", "zhongli", "hutao", "eula"];
 // console.log(values);
 
 // Mengambil field pada object, setelah dikirim sebagai parameter untuk function
-const laptop = {
-	id: 1234,
-	nama: "ASUS XYZ",
-	ram: 9,
-	produksi: "Indonesia",
+// const laptop = {
+// 	id: 1234,
+// 	nama: "ASUS XYZ",
+// 	ram: 9,
+// 	produksi: "Indonesia",
+// };
+
+// function getIdLaptop({nama}) {
+// 	return nama;
+// }
+
+// console.log(getIdLaptop(laptop));
+
+// Function
+// const kalkulasi = (a, b) => [a + b, a - b, a * b, a / b];
+
+// const kakulkas = (a, b) => {
+// 	return {
+// 		tambah: a + b,
+// 		kurang: a - b,
+// 		kali: a * b,
+// 		bagi: a / b,
+// 	};
+// };
+
+// function kalkulasi(a, b) {
+// 	return {
+// 		tambah: a + b,
+// 		kurang: a - b,
+// 		kali: a * b,
+// 		bagi: a / b,
+// 	};
+// }
+
+// const {kurang, kali, tambah, sapi, bagi} = kakulkas(2, 3);
+
+// console.log(tambah);
+
+// Destructing function arguments
+const mhs1 = {
+	nama: "NoName",
+	umur: 20,
+	email: "noname@name.id",
+	nilai: {
+		tugas: 100,
+		uts: 90,
+		uas: 95,
+	},
 };
 
-function getIdLaptop({nama}) {
-	return nama;
+function cetakMhs({nama, umur, nilai: {tugas, uts, uas}}) {
+	return `Halo, nama saya ${nama}, saya berumur ${umur} tahun, Nilai UAS saya ${uas}
+	`;
 }
 
-console.log(getIdLaptop(laptop));
+console.log(cetakMhs(mhs1));
