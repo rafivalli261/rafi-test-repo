@@ -1,0 +1,16 @@
+{
+	"name": "08-npm",
+	"version": "1.0.0",
+	"description": "Belajar Node JS",
+	"main": "begin.js",
+	"scripts": {
+		"start": "node begin",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Rafi Valli",
+	"license": "ISC",
+	"dependencies": {
+		"validator": "^13.7.0"
+	}
+}
