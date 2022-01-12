@@ -4,13 +4,17 @@
 	"description": "Belajar Node JS",
 	"main": "begin.js",
 	"scripts": {
-		"start": "node begin",
+		"start": "nodemon begin",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
 	"author": "Rafi Valli",
 	"license": "ISC",
 	"dependencies": {
+		"chalk": "^4.1.0",
 		"validator": "^13.7.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
 	}
 }
