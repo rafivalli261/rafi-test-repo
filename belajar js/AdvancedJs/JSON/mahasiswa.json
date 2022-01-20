@@ -1,0 +1,23 @@
+[
+	{
+		"nama": "Xiao",
+		"region": "Liyue",
+		"vision": "Anemo",
+		"atk": 2910,
+		"def": 1345
+	},
+	{
+		"nama": "Jean",
+		"region": "Monstadt",
+		"vision": "Anemo",
+		"atk": 2210,
+		"def": 1245
+	},
+	{
+		"nama": "Yoimiya",
+		"region": "Inazuma",
+		"vision": "Pyro",
+		"atk": 2500,
+		"def": 1300
+	}
+]
