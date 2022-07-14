@@ -17,12 +17,11 @@ Program dirancang oleh _developer_ dengan menempatkan kode program dalam folder 
 
 ## Contoh Konvensi Folder
 
-* **src/** (source): File dalam folder ini merupakan source code yang digunakan untuk proses build dan pengembangan program
-
-* **dist/** (distribution): Folder ini digunakan untuk proses production. Biasa disebut juga dengan folder **build/** atau **public/** The files meant for production or public use are typically located in this folder. This folder could also be labeled public/ or build/.
-* **lib/** (library): Kumpulan dari files, programs, routines, scripts, atau functions yang dapat digunakan dalam kode program.
-* **bin/** : These files that get added to your PATH when installed File di dalam folder ini akan ditambahkan ke PATH ketika program diinstal.
-* **test/** : Folder untuk melakukan proses uji coba pada program untuk memastikan program berjalan dengan semestinya
-* **assets/** : Folder berisi file multimedia yang digunakan oleh program tersebut seperti foto, video, audio, font, dll.
+* **`src/`** _(source)_: File dalam folder ini merupakan source code yang digunakan untuk proses build dan pengembangan program
+* **`dist/`** _(distribution)_: Folder ini digunakan untuk proses _production_. Biasa disebut juga dengan folder **`build/`** atau **`public/`**.
+* **`lib/`** _(library)_: Kumpulan dari file, program, routine, script, atau function yang dapat digunakan dalam kode program.
+* **`bin/`** : File di dalam folder ini akan ditambahkan ke PATH ketika program diinstal.
+* **`test/`** : Folder untuk melakukan proses uji coba pada program untuk memastikan program berjalan dengan semestinya
+* **`assets/`** : Folder berisi file multimedia yang digunakan oleh program tersebut seperti foto, video, audio, font, dll.
 
 Artikel ini hanya untuk referensi semata. Struktur program sebaiknya disusun sesuai dengan projek yang dikerjakan. Semangat!!!
