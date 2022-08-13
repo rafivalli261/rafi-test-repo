@@ -1,5 +1,40 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap'); */
 
 * {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
 	font-family: Inter, sans-serif;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	background-color: #21222a;
+	padding: 30px 25px;
+	height: 90px;
+}
+
+.nav--icon {
+	width: 30px;
+	margin-right: 7px;
+}
+
+.nav--logo_text,
+.nav--title {
+	margin: 0;
+}
+
+.nav--logo_text {
+	margin-right: auto;
+	color: #61dafb;
+	font-weight: 700;
+	font-size: 22px;
+}
+
+.nav--title {
+	color: #deebf8;
+	font-weight: 600;
 }
