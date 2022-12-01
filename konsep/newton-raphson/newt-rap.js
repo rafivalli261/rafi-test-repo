@@ -8,19 +8,27 @@ const f1 = (x) => {
 const maxIt = 20;
 const tol = 0.00001;
 let i = 0;
-let x0 = -5;
+let x0 = 1000000;
 let x1 = x0;
+const galat = 0.000001;
 
 console.log(`Iteration ${i} : x = ${x0} , f(x) = ${f(x0)}`);
 while (Math.abs(f(x1)) > tol || i > maxIt) {
 	i++;
 	let xi = x1 - f(x1) / f1(x1);
 	console.log(`Iteration ${i} : x = ${xi} , f(x) = ${f(xi)}`);
+	if (Math.abs(xi - x1) < galat) {
+		break;
+	}
 	x1 = xi;
-	// if (i === 20) {
-	// 	break;
-	// }
 }
+
+// do {
+// 	i++;
+// 	let xi = x1 - f(x1) / f1(x1);
+// 	console.log(`Iteration ${i} : x = ${xi} , f(x) = ${f(xi)}`);
+// 	x1 = xi;
+// } while (Math.abs(xi - x1) > galat && i < maxIt);
 
 // kode diambil dari https://towardsdatascience.com/develop-your-own-newton-raphson-algorithm-in-python-a20a5b68c7dd
 // dimodifikasi ke dalam bahasa javascript
