@@ -7,6 +7,7 @@ const promise = new Promise(function (resolve, reject) {
 	}
 
 	reject(new Error("Hai! Namaku Error, salam kenal semuanya!"));
+	reject(new Error("Hai! Namaku Error, salam kenal semuanya!"));
 });
 
 // "Consuming Code" (Must wait for a fulfilled Promise)
